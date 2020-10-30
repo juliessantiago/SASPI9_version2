@@ -1,4 +1,4 @@
-//Efeitos da página com JQuery 
+//Efeitos 
     (function ($) {
     "use strict"; 
 
