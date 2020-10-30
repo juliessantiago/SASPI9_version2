@@ -29,7 +29,7 @@
                     <ul class="navbar-nav text-uppercase ml-auto">
                         
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#palestra">Palestras </a></li>
-                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#minicurso">Minicursos </a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Inscreva-se</a></li>
                     </ul>
                 </div>
@@ -38,18 +38,23 @@
         <!------Header -------------->
         <header class="masthead">
             <div class="container">
-                <div class="titulo-principal">Semana Acadêmica TSI 9 </div>
+                <div class="titulo-principal"> SASPI9</div>
             </div>
         </header>
+        <!--Sobre o evento -->
+        <div id="sobre" class="page-section" >
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Sobre o evento</h2>
+            </div>
         
+        </div>
+            
         <!-- Palestras -->
-            <section class="page-section bg-light" id="palestra">
-
+            <section id="palestra" class="page-section">
                 <div class="container">
                     
                         <div class="text-center">
                             <h2 class="section-heading text-uppercase">Palestras</h2>
-                            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                         </div>
     
                         <div class="row">
@@ -78,56 +83,81 @@
                                 </div>
                             </div>
                         </div>
-                        
-                    
-    
-                    
-                    
-    
                 </div> <!--Container-->
-    
             </section>
-      
-        
-              
-    <!-- Inscrição -->]
-    <div id="particles" class="particles-div"> 
 
-        <div class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Inscreva-se</h2>
+            <!--------------------- Minicursos  ------------------------------>
+            <section id="minicurso" class="page-section">
+                <div class="container">
                     
-                </div>
-                <form id="contactForm" name="inscricao" novalidate="novalidate">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-10">
-                            <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Nome completo" required="required" data-validation-required-message="Informe seu nome" />
-                                <p class="help-block text-danger"></p>
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">Minicursos</h2>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="palestra-item">
+                                        <img class="img-fluid" src="assets/img/palestras/palestrante_1.jpeg" alt="" />
+                                    <div class="palestra-caption">
+                                        <div class="minicurso-caption-heading">Minicursinho</div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Informe seu email" />
-                                <p class="help-block text-danger"></p>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="palestra-item">
+                                        <img class="img-fluid" src="assets/img/palestras/palestrante_1.jpeg" alt="" />
+                                    <div class="palestra-caption">
+                                        <div class="minicurso-caption-heading">Minicursinho</div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group mb-md-0">
-                                <input class="form-control" id="ensino" type="text" placeholder="Instituição de ensino" />
-                                <p class="help-block text-danger"></p>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="palestra-item">
+                                        <img class="img-fluid" src="assets/img/palestras/palestrante_1.jpeg" alt="" />
+                                    <div class="palestra-caption">
+                                        <div class="minicurso-caption-heading">Minicursinho</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button class="btn btn-danger btn-xl text-uppercase" id="" type="submit"> Enviar </button>
-                    </div>
-                </form>
+                </div> <!--Container-->
+            </section>
+          
+    
+    <!-- Inscrição --> 
+    <div class="page-section" id="contact">
+        <div class="container">  
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Inscreva-se</h2>
+                
             </div>
+            <form id="contactForm" name="inscricao" novalidate="novalidate">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-11">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Nome completo" required="required" data-validation-required-message="Informe seu nome" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Informe seu email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <input class="form-control" id="ensino" type="text" placeholder="Instituição de ensino" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button class="btn btn-danger btn-xl text-uppercase" id="" type="submit"> Enviar </button>
+                </div>
+            </form>
         </div>
-
-    </div> <!--Particles ** NÃO ESTÁ NO FUNDO DO FORM-->
+    </div>
         
-        <!-- Footer-->
+        <!------------- Footer--------------------------->
         
             <footer class="footer py-4">
             
