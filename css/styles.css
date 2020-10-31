@@ -9129,6 +9129,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-image: url(../assets/img/fundo_preto_pontilhado.jpeg);
 }
 
+.text-box{
+  padding: 3.1em;
+  border: solid 0.1em #eb3f3d ;
+  color: #121416;
+  font-size: 1em; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 /*=====================     Animação header  =====================================*/ 
 
 .masthead {
@@ -9154,7 +9162,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translateY(-50%);
   z-index: 2;
   animation: dd1 10s 1, dd12 10s 1;
-  animation-delay: 4s, 14s;
+  animation-delay: 2s, 8s;
 }
 .d2 {
   position: absolute;
@@ -9172,7 +9180,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translateY(-50%);
   z-index: 1;
   animation: dd2 10s 2;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .d3 {
   position: absolute;
@@ -9191,7 +9199,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translateY(-50%);
   z-index: 3;
   animation: dd3 10s 2;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .d4 {
   position: absolute;
@@ -9209,7 +9217,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translateY(-50%);
   z-index: 1;
   animation: dd4 10s 2;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 @keyframes dd1 {
