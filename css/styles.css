@@ -8280,7 +8280,7 @@ img::-moz-selection {
   color: #fed136;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -8305,7 +8305,7 @@ img::-moz-selection {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
-#mainNav.navbar-shrink .navbar-brand img {
+  #mainNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
@@ -8339,54 +8339,9 @@ img::-moz-selection {
   color: #f4cc5d;
 }
 
-#palestra .palestra-item {
-  max-width: 25rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#palestra .palestra-item .palestra-caption { 
-  padding: 1.5rem;
-  text-align: center;
-  background-color: #fff;
-}
-#palestra .palestra-item .palestra-caption .palestra-caption-heading {
-  font-size: 1.5rem;
-  font-family: "Montserrat";
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-#minicurso h2  {
-  color: #eb3f3d;
-}
-
-.minicurso-caption-heading {
-  font-size: 1.5rem;
-  color: #eb3f3d; 
-  font-family: "Montserrat";
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-#minicurso .palestra-item {
-  max-width: 25rem;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-#minicurso .palestra-item .palestra-caption {
-  padding: 1.5rem;
-  text-align: center;
-  background-color: #fff;
-}
-
-#minicurso .palestra-item .palestra-caption .palestra-caption-heading {
-  font-size: 1.5rem;
-  font-family: "Montserrat";
-  font-weight: 700;
-  margin-bottom: 0;
+#card-item {
+  border: solid 0.5em yellow; 
+  margin: 3px solid yellow; 
 }
 
 section#contact form#contactForm .form-group {
