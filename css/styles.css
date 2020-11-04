@@ -8334,12 +8334,19 @@ img::-moz-selection {
     margin-bottom: 4rem;
   }
 }
-
+/*=================Sobre==================*/ 
 #sobre .text-center{
   color: #f4cc5d;
 }
+.text-box p{ 
+  padding: 1em;
+  border: solid 0.1em #eb3f3d ; 
+  color: #121416;
+  font-size: 1em; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-/* Section Palestras*/ 
+/*========================= Section Palestras========================*/ 
 #palestras {
   display: flex;
   flex-direction: row;
@@ -8347,38 +8354,45 @@ img::-moz-selection {
   justify-content: center;
 }
 div.img {
-  margin: 7px;
+  margin: 12px;
+  padding: 5px;
   border: 1px solid #ccc;
   width: 300px;
+  background-color: #121416; 
+  border-radius: 0.3rem;
 }
 
 div.img:hover {
   border: 0.15em solid #f4cc5d;
-  background-color: #d0d1d1;
 }
 div.img img {
   width: 100%;
   height: auto;
 }
-
-div.name {
-  text-align: center;
+div.desc { /*Titulo da palestra*/ 
+  padding: 0.2em;
+  text-align: center; 
   font-family: 'Montserrat';
-  font-size: 2em;
-  color: #10707f;
+  font-size: 1.1em;
+  color: #5DCBCA; 
 }
 
-div.desc {
-  font-family: 'Montserrat';
-  color: #121416;
-  padding: 15px;
+div.name { /*Nome do palestrante*/
   text-align: center;
+  font-family: 'Montserrat';
+  color: #858585; 
 }
 
-
-
-
+div.hour{ /*Dia, Horário da palestra*/ 
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #eb3f3d;
+}
 /*============================================================*/ 
+
+#contact {
+  background-image: url(../assets/img/fundo_preto_pontilhado.jpeg);
+}
 
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -8436,18 +8450,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 5rem;
   color: #5dcbca;
   text-shadow: whitesmoke 2px 2px;
-}
-
-#contact {
-  background-image: url(../assets/img/fundo_preto_pontilhado.jpeg);
-}
-
-.text-box{ //Seção Sobre o Evento 
-  padding: 3.1em;
-  border: solid 0.1em #eb3f3d ;
-  color: #121416;
-  font-size: 1em; 
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*=====================     Animação header  =====================================*/ 
