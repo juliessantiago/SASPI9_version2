@@ -8373,6 +8373,7 @@ div.desc { /*Titulo da palestra*/
   padding: 0.2em;
   text-align: center; 
   font-family: 'Montserrat';
+  font-weight: bolder;
   font-size: 1.1em;
   color: #5DCBCA; 
 }
@@ -8380,6 +8381,7 @@ div.desc { /*Titulo da palestra*/
 div.name { /*Nome do palestrante*/
   text-align: center;
   font-family: 'Montserrat';
+  font-weight: bold;
   color: #858585; 
 }
 
@@ -8387,6 +8389,11 @@ div.hour{ /*Dia, Horário da palestra*/
   text-align: center;
   font-family: 'Montserrat';
   color: #eb3f3d;
+}
+
+#palestra .day {
+  text-align: center;
+  color: #eb3f3d ;
 }
 /*============================================================*/ 
 
