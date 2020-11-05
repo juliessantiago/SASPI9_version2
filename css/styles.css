@@ -8354,8 +8354,8 @@ img::-moz-selection {
   justify-content: center;
 }
 div.img {
-  margin: 30px;
-  padding: 5px;
+  margin-left: 80px;
+  margin-right: 80px;
   border: 1px solid #ccc;
   width: 300px;
   
