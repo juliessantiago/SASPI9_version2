@@ -8185,7 +8185,7 @@ p {
 }
 
 .page-section {
-  background-color: #FFFFF0; 
+  background-color: #FAFAFA; 
   padding: 3rem 0;
 }
 .page-section h2.section-heading {
@@ -8338,11 +8338,11 @@ img::-moz-selection {
 #sobre .text-center{
   color: #f4cc5d;
 }
-.text-box p{ 
+.text-box { 
   padding: 1em;
   border: solid 0.1em #eb3f3d ; 
   color: #121416;
-  font-size: 1em; 
+  font-size: 1.3em; 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -8354,11 +8354,11 @@ img::-moz-selection {
   justify-content: center;
 }
 div.img {
-  margin: 12px;
+  margin: 30px;
   padding: 5px;
   border: 1px solid #ccc;
   width: 300px;
-  background-color: #121416; 
+  
   border-radius: 0.3rem;
 }
 
@@ -8449,7 +8449,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-wrap: wrap ;
 }
 
-/*=====================     Animação header  =====================================*/ 
+/*===========================  Animação header  =====================================*/ 
 
 .masthead {
   background-color: #121416;
@@ -8459,13 +8459,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100vw;
   position: relative;
 }
-.d1 {
+.d1 { /*Frente*/ 
   position: absolute;
-  background-image: url('../assets/img/header/saspi_anterior_2.jpg');
-  background-size: 2700px 1500px;
-  height: 30vh;
-  width: 15vw;
-
+  background-image: url('../assets/img/header/header_4.jpg');
+  background-size: 2000px 800px;
+  height: 40vh;
+  width: 15vw; 
+  
   background-position: 0 50%;
   border: 0.1em solid #f4cc5d;
 
@@ -8476,10 +8476,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   animation: dd1 10s 1, dd12 10s 1;
   animation-delay: 2s, 8s;
 }
-.d2 {
+.d2 { /*Primeiro atrás*/ 
   position: absolute;
-  background-image: url('../assets/img/header/saspi_anterior_2.jpg');
-  background-size: 2700px 1500px;
+  background-image: url('../assets/img/header/header_2.jpg');
+  background-size: 600px 900px;
 
   height: 50vh;
   width: 25vw;
@@ -8494,10 +8494,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   animation: dd2 10s 2;
   animation-delay: 2s;
 }
-.d3 {
+.d3 { /*Segundo atrás*/ 
   position: absolute;
-  background-image: url('../assets/img/header/saspi_anterior_3.jpg');
-  background-size: 2700px 1500px;
+  background-image: url('../assets/img/header/header_1.jpg');
+  background-size: 1200px 1500px;
   overflow: hidden;
 
   height: 100vh;
@@ -8513,12 +8513,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   animation: dd3 10s 2;
   animation-delay: 2s;
 }
-.d4 {
+.d4 { /*Terceiro atrás*/ 
   position: absolute;
   overflow: hidden;
-  background-image: url('../assets/img/header/saspi_anterior_1.jpg');
-  background-size: 2700px 1500px;
-
+  background-image: url('../assets/img/header/header_3.jpg');
+  background-size: 1000px 800px; 
   height: 80vh;
   width: 25vw;
   left: 60vw;
