@@ -3714,17 +3714,6 @@ input[type=button].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
-.navbar-expand-sm > .container-fluid,
-.navbar-expand-sm > .container-sm,
-.navbar-expand-sm > .container-md,
-.navbar-expand-sm > .container-lg,
-.navbar-expand-sm > .container-xl {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
@@ -8043,8 +8032,8 @@ img::-moz-selection {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -8057,6 +8046,12 @@ img::-moz-selection {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header.masthead {
+    display: none;
   }
 }
 /*=================Sobre==================*/ 
@@ -8074,11 +8069,11 @@ img::-moz-selection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 div.img {
   padding: 10px;
-  margin-left: 110px;
-  margin-right: 110px;
+ 
   margin-bottom: 10px;
   border: 1px solid #ccc;
   width: 300px; 
