@@ -8053,6 +8053,10 @@ img::-moz-selection {
   header.masthead {
     display: none;
   }
+
+  #sobre {
+    padding-top: 100px;
+  }
 }
 /*=================Sobre==================*/ 
 #sobre .text-center{
