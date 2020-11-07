@@ -24,7 +24,7 @@
   --gray-dark: #343a40;
   --primary: #fed136;
   --secondary: #eb3f3d; 
-  --success: #28a745;
+  --success: #377c7b;
   --info: #17a2b8;
   --warning: #fed136;
   --danger: #dc3545;
@@ -8073,11 +8073,10 @@ img::-moz-selection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 div.img {
   padding: 10px;
- 
   margin-bottom: 10px;
   border: 1px solid #ccc;
   width: 300px; 
@@ -8314,6 +8313,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 100%;
   overflow: hidden;
   outline: 0;
+  border-radius: 0.2rem;
 }
 
 .modal-dialog {
@@ -8383,9 +8383,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   display: flex;
   flex-direction: column;
+  font-size: 1em;
   left: 30%;
   width: 50%; 
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(19, 166, 202, 0.7); 
   border-radius: 0.25rem;
 }
 
@@ -8448,6 +8449,11 @@ section#contact form#contactForm :-ms-input-placeholder {
     max-width: 1140px;
   }
 }
+@media (max-width: 500px){ /*gambiarrinha*/ 
+  #modalPalestrante1 {
+   
+  }
+}
 
 #nome_modal {
   color: red;
@@ -8458,4 +8464,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: white;
   font-family: 'Montserrat';
   font-size: 1em;
+}
+#botao .fechaModal{
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
