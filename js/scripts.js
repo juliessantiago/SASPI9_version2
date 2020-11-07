@@ -49,4 +49,6 @@
     navbarCollapse();
     // Efeito Collapse quando dá scroll 
     $(window).scroll(navbarCollapse);
+
+ 
 })(jQuery); 
