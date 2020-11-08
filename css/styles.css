@@ -212,8 +212,7 @@ button {
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  
 }
 
 input,
@@ -229,7 +228,7 @@ textarea {
 
 button,
 input {
-  overflow: visible;
+  
 }
 
 button,
@@ -441,14 +440,6 @@ mark,
   padding: 0.5em;
 }
 
-.img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
-}
 
 .figure {
   display: inline-block;
@@ -2122,7 +2113,7 @@ textarea.form-control {
 }
 a.btn.disabled,
 fieldset:disabled a.btn {
-  pointer-events: none;
+  
 }
 
 .btn-primary {
@@ -2579,7 +2570,7 @@ fieldset:disabled a.btn {
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
-  pointer-events: none;
+  
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -2848,7 +2839,7 @@ input[type=button].btn-block {
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
-  pointer-events: none;
+
   background-color: transparent;
 }
 
@@ -2972,7 +2963,7 @@ input[type=button].btn-block {
 .btn-group-toggle > .btn-group > .btn input[type=checkbox] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
-  pointer-events: none;
+  
 }
 
 .input-group {
@@ -3203,7 +3194,6 @@ input[type=button].btn-block {
   display: block;
   width: 1rem;
   height: 1rem;
-  pointer-events: none;
   content: "";
   background-color: #fff;
   border: #adb5bd solid 1px;
@@ -3570,7 +3560,6 @@ input[type=button].btn-block {
 }
 .nav-link.disabled {
   color: #6c757d;
-  pointer-events: none;
   cursor: default;
 }
 
@@ -3713,6 +3702,8 @@ input[type=button].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+
+
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -4029,11 +4020,7 @@ input[type=button].btn-block {
   border-color: #fed136;
 }
 .page-item.disabled .page-link {
-  color: #6c757d;
-  pointer-events: none;
-  cursor: auto;
-  background-color: #fff;
-  border-color: #dee2e6;
+  
 }
 
 []
@@ -7558,7 +7545,6 @@ input[type=button].btn-block {
   bottom: 0;
   left: 0;
   z-index: 1;
-  pointer-events: auto;
   content: "";
   background-color: rgba(0, 0, 0, 0);
 }
@@ -8065,7 +8051,7 @@ img::-moz-selection {
 .text-box { 
   color: whitesmoke;
   font-size: 1.3em; 
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Montserrat'
 }
 
 /*========================= Section Palestras========================*/ 
@@ -8081,10 +8067,17 @@ div.img {
   border: 1px solid #ccc;
   width: 300px; 
   border-radius: 0.3rem;
+  object-fit: fill;
+  cursor: pointer;
+  background-color: #121416; 
+ 
 }
 
+.img p {
+
+}
 div.img:hover {
-  border: 0.15em solid #f4cc5d;
+  border: 0.15em solid #f4cc5d;  
 }
 div.img img { /*Foto palestrante*/ 
  width: 275px;
@@ -8103,13 +8096,14 @@ div.name { /*Nome do palestrante*/
   text-align: center;
   font-family: 'Montserrat';
   font-weight: bold;
-  color: #858585; 
+  color: #dddddd; 
 }
 
 div.hour{ /*Dia, Horário da palestra*/ 
   text-align: center;
   font-family: 'Montserrat';
-  color: #eb3f3d;
+  font-weight: bold;
+  color: #f4cc5d;
 }
 
 #palestra .day {
@@ -8320,7 +8314,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   width: auto;
   margin: 0.5rem;
-  pointer-events: none;
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
@@ -8465,7 +8458,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: 'Montserrat';
   font-size: 1em;
 }
-#botao .fechaModal{
+#botao {
   cursor: pointer;
   padding: 0;
   margin: 0;
