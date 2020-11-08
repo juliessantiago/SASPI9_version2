@@ -139,7 +139,6 @@ sup {
   position: relative;
   font-size: 75%;
   line-height: 0;
-  vertical-align: baseline;
 }
 
 sub {
@@ -291,7 +290,7 @@ legend {
 }
 
 progress {
-  vertical-align: baseline;
+  
 }
 
 [type=number]::-webkit-inner-spin-button,
@@ -3185,7 +3184,7 @@ input[type=button].btn-block {
 .custom-control-label {
   position: relative;
   margin-bottom: 0;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .custom-control-label::before {
   position: absolute;
@@ -4474,13 +4473,6 @@ input[type=button].btn-block {
   outline: 0;
 }
  
-.align-baseline {
-  vertical-align: baseline !important;
-}
-
-.align-top {
-  vertical-align: top !important;
-}
 
 .align-middle {
   vertical-align: middle !important;
@@ -7909,12 +7901,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+ 
   text-shadow: none;
 }
 
@@ -8081,13 +8073,13 @@ div.img:hover {
 }
 div.img img { /*Foto palestrante*/ 
  width: 275px;
- height: 250px;
+ height: 240px;
 }
 div.desc { /*Titulo da palestra*/ 
   padding: 0.2em;
   text-align: center; 
   font-family: 'Montserrat';
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.1em;
   color: #5DCBCA; 
 }
@@ -8095,14 +8087,12 @@ div.desc { /*Titulo da palestra*/
 div.name { /*Nome do palestrante*/
   text-align: center;
   font-family: 'Montserrat';
-  font-weight: bold;
   color: #dddddd; 
 }
 
-div.hour{ /*Dia, Horário da palestra*/ 
+div.hour{ /*Horário da palestra*/ 
   text-align: center;
   font-family: 'Montserrat';
-  font-weight: bold;
   color: #f4cc5d;
 }
 
